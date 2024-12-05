@@ -1,0 +1,51 @@
+.kotakan-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.kotakan-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  position: relative;
+  top: 10px;  /* Geser ke bawah */
+  left: 450px; /* Geser ke kanan */
+  width: 400px; /* Ubah lebar menjadi 400px */
+  height: auto; /* Tinggi akan disesuaikan secara proporsional */
+  color: #3DD598B2;
+  z-index: 1;
+}
+
+form {
+  position: absolute; /* Menempatkan form di atas gambar */
+  z-index: 2; /* Pastikan form berada di atas gambar */
+  top: 10%; /* Posisi vertikal di tengah */
+  left: 68%; /* Posisi horizontal di tengah */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
